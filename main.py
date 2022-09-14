@@ -5,7 +5,8 @@ from app.config import Config
 from app.database import db
 from app.views.books import book_ns
 from app.views.authors import author_ns
-from app.models import Book, Author
+from app.dao.model.book import Book
+from app.dao.model.author import Author
 
 
 
